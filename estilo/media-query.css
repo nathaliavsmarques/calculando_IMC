@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    main #title {
+        font-size: 2.4rem;
+
+    }
+
+    main #wrapper {
+        font-size: 1.4rem;
+        height: 20rem;
+
+    }
+
+    #wrapper .material-symbols-outlined {
+        padding: 2.5rem 0 0 1rem;
+        font-size: 3rem;
+        font-weight: 400;
+
+
+    }
+
+    #wrapper #altura,
+    #peso {
+        font-size: 1.2rem;
+
+    }
+
+    #btn {
+        font-size: 1.2rem;
+        font-weight: 400;
+        width: 8rem;
+        height: 2.5rem;
+        margin-top: 3rem;
+
+    }
+
+    #resp {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    main #title {
+        font-size: 3rem;
+
+    }
+
+    main #wrapper {
+        font-size: 1.8rem;
+        max-width: 50vw;
+        height: 20rem;
+        padding-top: 2rem;
+
+    }
+
+    #wrapper .material-symbols-outlined {
+        font-size: 3.2rem;
+    }
+
+    #wrapper #altura,
+    #peso {
+        font-size: 1.1rem;
+        padding-right: 1rem;
+    }
+
+    #btn {
+        font-size: 1.4rem;
+        font-weight: 400;
+        width: 10rem;
+        height: 2.8rem;
+        margin-top: 3.4rem;
+
+    }
+
+    #resp {
+        font-size: 1.8rem;
+    }
+
+}
